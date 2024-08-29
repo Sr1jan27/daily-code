@@ -20,6 +20,9 @@ class HelloWorld {
             n = n/10;
             op++;
         }
+
+
+        // so basically we are taking op from 1 to n and for each op we are finding its digits place by doing % on original number then add it to the inv
         
         System.out.println(inv +" is inverse of " + val);
         
