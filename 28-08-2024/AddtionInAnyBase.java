@@ -17,6 +17,7 @@ public class AddtionInAnyBase {
         z = decimalToAnyBase(z,b);
         
         System.out.println("After addition answer is --> "+ z);
+        sc.close();
     }
     public static int convertToDecimal(int x, int base){
         
