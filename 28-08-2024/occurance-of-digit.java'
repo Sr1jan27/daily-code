@@ -1,0 +1,25 @@
+import java.util.*;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        //count the occarance of a digit in a number
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number");
+        int n = sc.nextInt();
+        System.out.println("Enter a digit");
+        int d = sc.nextInt();
+        
+        HashMap<Integer, Integer> hm = new HashMap<>();
+        
+        while(n>0){
+            int dig = n%10;
+            hm.put(dig, hm.getOrDefault(dig,0)+1);
+            // System.out.println(dig+" -->"+hm.get(dig));
+            n/=10;
+        }
+        
+        System.out.println(hm.get(d));
+        
+    }
+    
+}
