@@ -12,7 +12,6 @@ public static void main(String[] args) {
         System.out.println("Enter another number to add");
         int y = sc.nextInt();
 
-        // comment 
         int valueOfSubstraction = multiplyInAnyBase(x,y,b);
         System.out.println("After addition answer is --> "+ valueOfSubstraction);
         sc.close();
