@@ -28,6 +28,7 @@ public class AddtionInAnyBase {
             convertedNumber = convertedNumber +rem*(int)Math.pow(base,a);
             a++;
             x/=10;
+
             
         }
         
