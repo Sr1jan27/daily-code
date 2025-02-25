@@ -7,6 +7,7 @@ public class DuplicateBrackets {
     String s = sc.nextLine(); 
     
 
+    
     Stack<Character> st = new Stack<>();
     for (int i = 0; i < s.length(); i++){
         char c = s.charAt(i);
