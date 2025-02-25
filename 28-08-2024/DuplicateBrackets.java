@@ -5,6 +5,7 @@ import java.util.Stack;
 public class DuplicateBrackets {
     Scanner sc = new Scanner(System.in);
     String s = sc.nextLine(); 
+    
 
     Stack<Character> st = new Stack<>();
     for (int i = 0; i < s.length(); i++){
