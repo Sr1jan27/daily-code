@@ -24,7 +24,8 @@ public class BarChart {
                     System.out.print(" ");
                 }
             }
-            System.out.println();
+            System.
+                out.println();
            
             System.out.println();
             
