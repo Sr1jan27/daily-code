@@ -14,6 +14,7 @@ public class BarChart {
             if(max<a[i]) max = a[i];
 
 
+
             
             
         }
