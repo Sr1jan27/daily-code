@@ -12,9 +12,6 @@ public class BarChart {
             System.out.println("Enter Bar chart value");
             
 
-
-
-            
             a[i] = sc.nextInt();
             if(max<a[i]) max = a[i];
 
