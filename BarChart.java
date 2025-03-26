@@ -13,6 +13,7 @@ public class BarChart {
             
             a[i] = sc.nextInt();
             if(max<a[i]) max = a[i];
+            
 
             
         }
