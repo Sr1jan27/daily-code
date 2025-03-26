@@ -15,6 +15,7 @@ public class BarChart {
             if(max<a[i]) max = a[i];
             
 
+
             
         }
         for(int j=max;j>0;j--){
