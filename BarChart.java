@@ -17,8 +17,7 @@ public class BarChart {
 
 
 
-
-            
+   
         }
         for(int j=max;j>0;j--){
             for(int i=0;i<n;i++){
