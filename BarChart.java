@@ -6,6 +6,7 @@ public class BarChart {
         System.out.println("Enter size");
         int n  = sc.nextInt();
 
+
         
         
         int[] a = new int[n];
