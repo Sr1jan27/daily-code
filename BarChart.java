@@ -5,7 +5,6 @@ public class BarChart {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter size");
         int n  = sc.nextInt();
-
         int[] a = new int[n];
         int max = 0;
         for(int i=0;i<n;i++){  
