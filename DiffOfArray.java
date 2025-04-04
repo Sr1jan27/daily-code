@@ -17,6 +17,8 @@ public class DiffOfArray {
             System.out.print("Enter values for arr 2");
             b[i] = sc.nextInt();
         }
+
+        
         int max = Math.max(m, n);
         int[] c = new int[max];
         int min = Math.min(n,m);
