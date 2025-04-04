@@ -18,6 +18,8 @@ public class DiffOfArray {
             b[i] = sc.nextInt();
         }
 
+
+
         
         int max = Math.max(m, n);
         int[] c = new int[max];
