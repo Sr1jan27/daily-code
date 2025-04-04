@@ -10,6 +10,8 @@ public class DiffOfArray {
             System.out.print("Enter values for arr 1");
             a[i] = sc.nextInt();
         }
+
+        
         System.out.println("Enter size 2");
         int m =  sc.nextInt();
         int[] b = new int[m];
