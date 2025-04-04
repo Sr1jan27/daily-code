@@ -12,6 +12,8 @@ public class DiffOfArray {
         }
 
         
+
+        
         System.out.println("Enter size 2");
         int m =  sc.nextInt();
         int[] b = new int[m];
