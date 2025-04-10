@@ -10,6 +10,8 @@ public class BarChart {
         for(int i=0;i<n;i++){  
             
             System.out.println("Enter Bar chart value");
+
+
             
             a[i] = sc.nextInt();
             if(max<a[i]) max = a[i];
