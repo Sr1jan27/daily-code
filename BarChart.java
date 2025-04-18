@@ -7,9 +7,7 @@ public class BarChart {
         int n  = sc.nextInt();
         int[] a = new int[n];
         int max = 0;
-        for(int i=0;i<n;i++){  
-
-            
+        for(int i=0;i<n;i++){
             System.out.println("Enter Bar chart value");
 
             a[i] = sc.nextInt();
