@@ -11,6 +11,8 @@ public class DiffOfArray {
             a[i] = sc.nextInt();
         }
 
+
+        
         
 
         
